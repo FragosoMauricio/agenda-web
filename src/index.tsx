@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './components/app/App';
 import Form from './components/Form/Form';
+import Tabela from './components/Table/Tabela';
 import './index.css';
 
 
@@ -11,8 +12,8 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <Form />
-    <Form />
+    <App />
+    <Tabela />
   </React.StrictMode>
 );
 
