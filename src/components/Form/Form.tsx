@@ -1,5 +1,13 @@
+import React from 'react';
 
 function Form () {
+    interface IFormulario {
+        nome: string;
+        fone: string;
+    }
+
+
+
     return (        
                     <form id="formulario-de-cadastro" action="">
                         <div className="mb-3">

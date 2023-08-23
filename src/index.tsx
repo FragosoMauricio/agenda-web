@@ -12,8 +12,10 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
+    <div className="container">
+      <h1 className='d-flex justify-content-center mb-5'> Agenda </h1>
     <App />
-    <Tabela />
+    </div>
   </React.StrictMode>
 );
 
